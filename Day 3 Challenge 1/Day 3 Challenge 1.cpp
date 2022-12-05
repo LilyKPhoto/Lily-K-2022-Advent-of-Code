@@ -15,7 +15,7 @@ int main() {
 	const char uppercase[26] = { 'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z' }; 
 
 	ifstream inputFile; // allows reading from a file
-	inputFile.open("input.txt"); // opens the file
+	inputFile.open("simpleinput.txt"); // opens the file
 
 	char cArray[SIZE], firstHalf[SIZE], secondHalf[SIZE]; // c-strings
 
